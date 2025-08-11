@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-11T11:05:10.860800",
+  "evaluation_summary": {
+    "total_metrics": 5,
+    "excellent_count": 2,
+    "good_count": 1,
+    "acceptable_count": 0,
+    "needs_improvement_count": 2,
+    "overall_score": 2.6,
+    "overall_grade": "B"
+  },
+  "optimization_plans": [
+    "优化推荐算法，提高内容与广告的匹配精度",
+    "改进用户画像建模，增强个性化推荐能力",
+    "优化广告创意展示，提升用户点击意愿",
+    "优化投放时机，选择用户最活跃的时间段",
+    "改进广告文案，增强产品吸引力",
+    "优化落地页体验，减少转化漏斗流失"
+  ],
+  "priority": "medium"
+}

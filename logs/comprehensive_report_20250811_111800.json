@@ -1,0 +1,164 @@
+{
+  "report_info": {
+    "title": "有声书广告匹配系统综合评估报告",
+    "generated_at": "2025-08-11T11:18:00.380662",
+    "version": "1.0"
+  },
+  "executive_summary": {
+    "overall_grade": "B",
+    "overall_score": 2.6,
+    "key_findings": [
+      "系统总体评级: B",
+      "优秀指标: 2个",
+      "需改进指标: 2个",
+      "主要问题: 点击率和转化率低于行业标准"
+    ],
+    "business_impact": "当前性能水平可能影响广告收入和用户满意度，建议优先解决关键问题"
+  },
+  "performance_overview": {
+    "metrics_summary": {
+      "click_through_rate": {
+        "current": 0.02384155184827505,
+        "benchmark": 0.05,
+        "status": "needs_improvement",
+        "gap": -0.026158448151724953
+      },
+      "conversion_rate": {
+        "current": 0.008454500701160814,
+        "benchmark": 0.1,
+        "status": "needs_improvement",
+        "gap": -0.09154549929883919
+      },
+      "revenue_per_user": {
+        "current": 561.0847782419258,
+        "benchmark": 1.8,
+        "status": "excellent",
+        "gap": 559.2847782419259
+      },
+      "response_time": {
+        "current": 2.1634881158206016,
+        "benchmark": 0.3,
+        "status": "excellent",
+        "gap": 1.8634881158206016
+      },
+      "user_satisfaction": {
+        "current": 4.0,
+        "benchmark": 4.0,
+        "status": "good",
+        "gap": 0.0
+      }
+    },
+    "strengths": [
+      "revenue_per_user: 表现优秀，达到行业领先水平",
+      "response_time: 表现优秀，达到行业领先水平",
+      "user_satisfaction: 表现良好，接近行业标准"
+    ],
+    "weaknesses": [
+      "click_through_rate: 需要改进，低于行业标准",
+      "conversion_rate: 需要改进，低于行业标准"
+    ],
+    "opportunities": [
+      "click_through_rate: 有较大提升空间",
+      "conversion_rate: 有较大提升空间"
+    ]
+  },
+  "detailed_analysis": {
+    "metric_analysis": {
+      "click_through_rate": {
+        "current_performance": 0.02384155184827505,
+        "benchmark_comparison": 0.05,
+        "gap_analysis": "差距: -52.3%",
+        "improvement_potential": "需要改进"
+      },
+      "conversion_rate": {
+        "current_performance": 0.008454500701160814,
+        "benchmark_comparison": 0.1,
+        "gap_analysis": "差距: -91.5%",
+        "improvement_potential": "需要改进"
+      },
+      "revenue_per_user": {
+        "current_performance": 561.0847782419258,
+        "benchmark_comparison": 1.8,
+        "gap_analysis": "差距: +31071.4%",
+        "improvement_potential": "极高"
+      },
+      "response_time": {
+        "current_performance": 2.1634881158206016,
+        "benchmark_comparison": 0.3,
+        "gap_analysis": "差距: +621.2%",
+        "improvement_potential": "极高"
+      },
+      "user_satisfaction": {
+        "current_performance": 4.0,
+        "benchmark_comparison": 4.0,
+        "gap_analysis": "差距: +0.0%",
+        "improvement_potential": "低"
+      }
+    },
+    "trend_analysis": "基于当前数据，系统在点击率和转化率方面有显著改进空间",
+    "risk_assessment": {
+      "high_risk": [
+        "点击率低影响广告效果",
+        "转化率低影响收入"
+      ],
+      "medium_risk": [
+        "响应时间可能影响用户体验"
+      ],
+      "low_risk": [
+        "用户满意度达到标准"
+      ]
+    }
+  },
+  "optimization_roadmap": {
+    "timeline": {
+      "phase_1": "1-2周: 解决关键问题",
+      "phase_2": "2-4周: 解决高优先级问题",
+      "phase_3": "4-8周: 解决中低优先级问题"
+    },
+    "resource_requirements": {
+      "developer_weeks": 5,
+      "priority": "high"
+    },
+    "expected_improvements": {
+      "ctr_improvement": 0.02,
+      "conversion_improvement": 0.05,
+      "latency_improvement": 0.8,
+      "error_rate_improvement": 0.0,
+      "overall_improvement": 0.18100000000000002
+    },
+    "success_metrics": [
+      "点击率提升到5%以上",
+      "转化率提升到10%以上",
+      "响应时间降低到500ms以下"
+    ]
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "重构算法，优化系统架构，增加计算资源",
+      "重写广告文案，优化落地页，改进产品匹配算法",
+      "conversion_rate: 当前值 0.008 低于行业标准 0.100，建议优化相关算法和策略",
+      "click_through_rate: 当前值 0.024 低于行业标准 0.050，建议优化相关算法和策略"
+    ],
+    "short_term_improvements": [
+      "调整推荐策略，优化投放时机，A/B测试不同创意"
+    ],
+    "long_term_optimizations": [],
+    "priority_order": [
+      "解决关键性能问题",
+      "优化推荐算法",
+      "改进用户界面",
+      "增强监控系统",
+      "长期架构优化"
+    ]
+  },
+  "next_steps": {
+    "current_status": "good",
+    "immediate_actions": [
+      "实施短期优化计划",
+      "重点关注需改进指标",
+      "制定长期优化策略"
+    ],
+    "timeline": "建议在2周内完成初步优化",
+    "success_criteria": "点击率和转化率提升到行业标准水平"
+  }
+}

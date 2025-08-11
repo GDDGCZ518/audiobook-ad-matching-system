@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-08-11T11:05:10.860267",
+  "summary": {
+    "total_metrics": 5,
+    "excellent_count": 2,
+    "good_count": 1,
+    "acceptable_count": 0,
+    "needs_improvement_count": 2,
+    "overall_score": 2.6,
+    "overall_grade": "B"
+  },
+  "detailed_metrics": {},
+  "benchmark_analysis": {
+    "click_through_rate": {
+      "current_value": 0.02384155184827505,
+      "benchmark_value": 0.05,
+      "improvement_percent": -52.3168963034499,
+      "status": "needs_improvement"
+    },
+    "conversion_rate": {
+      "current_value": 0.008454500701160814,
+      "benchmark_value": 0.1,
+      "improvement_percent": -91.54549929883919,
+      "status": "needs_improvement"
+    },
+    "revenue_per_user": {
+      "current_value": 561.0847782419258,
+      "benchmark_value": 1.8,
+      "improvement_percent": 31071.376568995885,
+      "status": "excellent"
+    },
+    "response_time": {
+      "current_value": 2.1634881158206016,
+      "benchmark_value": 0.3,
+      "improvement_percent": 621.1627052735339,
+      "status": "excellent"
+    },
+    "user_satisfaction": {
+      "current_value": 4.0,
+      "benchmark_value": 4.0,
+      "improvement_percent": 0.0,
+      "status": "good"
+    }
+  },
+  "recommendations": [
+    "click_through_rate: 当前值 0.024 低于行业标准 0.050，建议优化相关算法和策略",
+    "conversion_rate: 当前值 0.008 低于行业标准 0.100，建议优化相关算法和策略"
+  ]
+}

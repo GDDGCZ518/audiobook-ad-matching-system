@@ -1,0 +1,70 @@
+{
+  "performance_issues": [
+    {
+      "type": "low_conversion",
+      "severity": "critical",
+      "description": "转化率极低，用户行为转化困难",
+      "impact": "用户行为转化困难，收入损失严重，ROI极低",
+      "root_cause": "广告文案吸引力不足，落地页体验差，产品匹配度低",
+      "solution": "重写广告文案，优化落地页，改进产品匹配算法",
+      "priority": 1
+    },
+    {
+      "type": "high_latency",
+      "severity": "critical",
+      "description": "响应时间过长，严重影响用户体验",
+      "impact": "用户体验极差，用户流失严重，系统可用性低",
+      "root_cause": "算法性能差，系统架构不合理，资源不足",
+      "solution": "重构算法，优化系统架构，增加计算资源",
+      "priority": 1
+    },
+    {
+      "type": "low_ctr",
+      "severity": "high",
+      "description": "点击率偏低，需要重点关注",
+      "impact": "广告效果不佳，用户参与度偏低，收入增长受限",
+      "root_cause": "推荐策略需要优化，广告展示时机不当",
+      "solution": "调整推荐策略，优化投放时机，A/B测试不同创意",
+      "priority": 2
+    }
+  ],
+  "optimization_roadmap": {
+    "timestamp": "2025-08-11T11:15:09.213984",
+    "total_issues": 3,
+    "critical_issues": 2,
+    "high_priority_issues": 3,
+    "phases": {
+      "phase_1": {
+        "timeline": "1-2周",
+        "focus": "解决关键问题",
+        "issues": [
+          "PerformanceIssueDetail(issue_type=<PerformanceIssue.LOW_CONVERSION: 'low_conversion'>, severity='critical', description='转化率极低，用户行为转化困难', impact='用户行为转化困难，收入损失严重，ROI极低', root_cause='广告文案吸引力不足，落地页体验差，产品匹配度低', solution='重写广告文案，优化落地页，改进产品匹配算法', priority=1)",
+          "PerformanceIssueDetail(issue_type=<PerformanceIssue.HIGH_LATENCY: 'high_latency'>, severity='critical', description='响应时间过长，严重影响用户体验', impact='用户体验极差，用户流失严重，系统可用性低', root_cause='算法性能差，系统架构不合理，资源不足', solution='重构算法，优化系统架构，增加计算资源', priority=1)"
+        ]
+      },
+      "phase_2": {
+        "timeline": "2-4周",
+        "focus": "解决高优先级问题",
+        "issues": [
+          "PerformanceIssueDetail(issue_type=<PerformanceIssue.LOW_CTR: 'low_ctr'>, severity='high', description='点击率偏低，需要重点关注', impact='广告效果不佳，用户参与度偏低，收入增长受限', root_cause='推荐策略需要优化，广告展示时机不当', solution='调整推荐策略，优化投放时机，A/B测试不同创意', priority=2)"
+        ]
+      },
+      "phase_3": {
+        "timeline": "4-8周",
+        "focus": "解决中低优先级问题",
+        "issues": []
+      }
+    },
+    "estimated_improvement": {
+      "ctr_improvement": 0.02,
+      "conversion_improvement": 0.05,
+      "latency_improvement": 0.8,
+      "error_rate_improvement": 0.0,
+      "overall_improvement": 0.18100000000000002
+    },
+    "resource_requirements": {
+      "developer_weeks": 5,
+      "priority": "high"
+    }
+  }
+}

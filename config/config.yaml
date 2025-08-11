@@ -1,0 +1,103 @@
+# 有声书广告匹配Pipeline配置文件
+
+# 系统基础配置
+system:
+  name: "有声书广告匹配Pipeline"
+  version: "1.0.0"
+  debug: true
+  log_level: "INFO"
+
+# LLM API配置
+llm_api:
+  base_url: "http://deepgate.ximalaya.local"
+  api_key: "161332424d5d43649599351e2a20f0f1"
+  model: "gpt-4o"
+  max_tokens: 8092
+  timeout: 30
+
+# 内容理解模块配置
+content_understanding:
+  emotion_analyzer:
+    emotion_categories:
+      - "积极"
+      - "消极" 
+      - "中性"
+      - "兴奋"
+      - "平静"
+      - "紧张"
+      - "放松"
+      - "悲伤"
+      - "快乐"
+    confidence_threshold: 0.7
+
+# 内容生成模块配置
+content_generation:
+  ad_generator:
+    quality_metrics:
+      relevance: 0.4
+      creativity: 0.2
+      persuasiveness: 0.2
+      readability: 0.1
+      brand_consistency: 0.1
+    min_quality_score: 0.6
+    max_generation_attempts: 3
+
+# 匹配推荐模块配置
+matching_recommendation:
+  recommendation_engine:
+    recall_top_k: 100
+    coarse_ranking_top_k: 50
+    fine_ranking_top_k: 10
+    similarity_threshold: 0.7
+    model_path: "models/recommendation_models"
+
+# 投放优化模块配置
+deployment_optimization:
+  rl_optimizer:
+    state_dim: 50
+    action_dim: 10
+    learning_rate_actor: 1e-4
+    learning_rate_critic: 1e-3
+    gamma: 0.99
+    tau: 0.001
+    buffer_size: 100000
+    batch_size: 64
+    noise_std: 0.1
+    training_episodes: 1000
+
+# 监控分析模块配置
+monitoring_analysis:
+  performance_monitor:
+    update_interval: 5  # 秒
+    metrics_history_size: 1000
+    alert_thresholds:
+      click_rate:
+        warning: 0.02
+        critical: 0.01
+      completion_rate:
+        warning: 0.3
+        critical: 0.2
+      conversion_rate:
+        warning: 0.01
+        critical: 0.005
+      response_time:
+        warning: 2.0
+        critical: 5.0
+      error_rate:
+        warning: 0.05
+        critical: 0.1
+
+# 数据存储配置
+storage:
+  data_dir: "data"
+  models_dir: "models"
+  logs_dir: "logs"
+  cache_dir: "cache"
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/pipeline.log"
+  max_size: 100MB
+  backup_count: 5
