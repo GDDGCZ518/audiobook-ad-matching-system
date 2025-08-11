@@ -284,11 +284,6 @@ kubectl apply -f k8s/
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 创建Pull Request
 
-### 代码规范
-- 遵循PEP 8 Python代码规范
-- 添加适当的类型注解
-- 编写清晰的文档字符串
-- 确保测试覆盖率不低于80%
 
 ## 📄 许可证
 
@@ -296,8 +291,8 @@ kubectl apply -f k8s/
 
 ## 📞 联系我们
 
-- **项目维护者**: [Your Name]
-- **邮箱**: [your.email@example.com]
+- **项目维护者**: [Haosy]
+- **邮箱**: [727621604@qq.com]
 - **项目主页**: [https://github.com/yourusername/group_mission]
 - **问题反馈**: [https://github.com/yourusername/group_mission/issues]
 
@@ -309,6 +304,3 @@ kubectl apply -f k8s/
 - [scikit-learn](https://scikit-learn.org/) - 机器学习工具
 - [FAISS](https://github.com/facebookresearch/faiss) - 向量检索库
 
----
-
-⭐ 如果这个项目对你有帮助，请给我们一个星标！
